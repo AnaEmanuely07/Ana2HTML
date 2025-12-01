@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Busca pela Ilha Secreta</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="img/ilha1.png" alt="Ilha Secreta">
+        <p>Durante uma viagem ao Caribe, você encontra um mapa misterioso em um livro antigo. Ele leva até uma ilha secreta, onde um tesouro perdido está escondido. Sem perder tempo, você decide embarcar na aventura.</p>
+        <button class="btn-proximo" data-proximo="1">Partir para a Ilha</button>
+        <button class="btn-proximo" data-proximo="2">Desistir e voltar para casa</button>
+    </div>
+
+    <div class="passo" id="passo-1">
+        <img src="img/mapa3.png" alt="Ilha Secreta">
+        <p>Você chega à ilha e começa a explorar. A primeira parte do mapa indica que você deve seguir até a costa norte da ilha, onde algo importante está escondido. O que você fará?</p>
+        <button class="btn-proximo" data-proximo="3">Ir para a costa norte</button>
+        <button class="btn-proximo" data-proximo="4">Explorar a floresta densa</button>
+    </div>
+
+    <div class="passo" id="passo-2">
+        <p>Você decide voltar para casa e abandonar a busca pelo tesouro. Quem sabe, em outra oportunidade, você se arrisque mais uma vez. A ilha continua com seus segredos guardados.</p>
+    </div>
+
+    <div class="passo" id="passo-3">
+        <img src="img/costanorte.png" alt="Ilha Secreta">
+        <p>Chegando à costa norte, você encontra um velho barco abandonado. Dentro dele, há uma bússola antiga e uma carta que menciona uma caverna secreta nas montanhas. O que você fará?</p>
+        <button class="btn-proximo" data-proximo="5">Pegar a bússola e seguir para as montanhas</button>
+        <button class="btn-proximo" data-proximo="6">Ignorar e voltar para a floresta</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <img src="img/floresta3.png" alt="Ilha Secreta">
+        <p>Na floresta densa, você encontra várias trilhas. Uma delas parece levar até um rio, enquanto outra se perde em um labirinto de árvores. Você decide qual caminho seguir?</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o rio</button>
+        <button class="btn-proximo" data-proximo="8">Entrar no labirinto de árvores</button>
+    </div>
+
+    <div class="passo" id="passo-5">
+        <p>Com a bússola em mãos, você começa a caminhar em direção às montanhas. Ao chegar à entrada da caverna, você encontra uma pedra com inscrições antigas. A pedra parece ser uma chave para abrir a entrada.</p>
+        <button class="btn-proximo" data-proximo="9">Tentar abrir a entrada da caverna</button>
+        <button class="btn-proximo" data-proximo="10">Voltar e tentar outro caminho</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <p>Você decide explorar outro caminho na floresta, mas logo se perde no meio das árvores. A noite chega, e você acaba acampando até encontrar o caminho de volta. A busca pelo tesouro continua.</p>
+        <button class="btn-proximo" data-proximo="1">Voltar para a costa norte</button>
+    </div>
+
+    <div class="passo" id="passo-7">
+        <p>Ao seguir para o rio, você encontra um barco de madeira. Um mapa em sua cabine indica que o rio leva até a caverna secreta. Você decide seguir o curso do rio?</p>
+        <button class="btn-proximo" data-proximo="9">Navegar pelo rio</button>
+        <button class="btn-proximo" data-proximo="10">Voltar e explorar outro caminho</button>
+    </div>
+
+    <div class="passo" id="passo-8">
+        <p>Entrando no labirinto de árvores, você se depara com um antigo altar coberto de musgo. Há símbolos misteriosos nele. Talvez isso seja uma pista importante. O que você faz?</p>
+        <button class="btn-proximo" data-proximo="11">Estudar os símbolos do altar</button>
+        <button class="btn-proximo" data-proximo="12">Ignorar e continuar explorando</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+        <p>Dentro da caverna, você encontra um baú de tesouro coberto por pedras e um par de correntes antigas. Ao abrir o baú, encontra uma pedra preciosa e um pergaminho com a chave para o próximo enigma.</p>
+        <button class="btn-proximo" data-proximo="13">Estudar o pergaminho</button>
+        <button class="btn-proximo" data-proximo="14">Levar a pedra preciosa e sair da caverna</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+        <p>Você volta para a floresta, mas a caverna está cada vez mais distante. Os enigmas da ilha continuam, e você sabe que a aventura ainda não acabou.</p>
+        <button class="btn-proximo" data-proximo="1">Voltar à costa norte</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+        <p>Os símbolos no altar indicam uma série de coordenadas que levam até uma nova parte da ilha. Parece que você descobriu um novo caminho que pode levar ao tesouro!</p>
+        <button class="btn-proximo" data-proximo="13">Seguir as coordenadas do altar</button>
+    </div>
+
+    <div class="passo" id="passo-12">
+        <p>Você decide seguir explorando, mas a ilha é grande e cheia de armadilhas. Você acaba perdido em outro ponto e precisa encontrar o caminho de volta para a costa.</p>
+        <button class="btn-proximo" data-proximo="1">Voltar para a costa norte</button>
+    </div>
+
+    <div class="passo" id="passo-13">
+        <p>O pergaminho revela um segredo importante: o tesouro está escondido em uma caverna no centro da ilha, mas para acessá-la, você precisa resolver o enigma final.</p>
+        <button class="btn-proximo" data-proximo="14">Resolver o enigma</button>
+    </div>
+
+    <div class="passo" id="passo-14">
+        <p>Você resolve o enigma e descobre o local exato onde o tesouro está enterrado! Ao escavar, encontra um baú cheio de ouro, joias e artefatos raros. A aventura chegou ao fim, e o tesouro finalmente foi encontrado!</p>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
